@@ -1,0 +1,127 @@
+# HTML — Panel genérico de cancelación de movimiento
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cancelación de movimiento</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f3f4f6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      width: 380px;
+      background: #fff;
+      border-radius: 14px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+      overflow: hidden;
+    }
+
+    .header {
+      background: #0055a5;
+      color: white;
+      padding: 22px;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .content {
+      padding: 28px;
+      text-align: center;
+    }
+
+    .label {
+      color: #666;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .amount {
+      font-size: 34px;
+      color: #111;
+      font-weight: bold;
+      margin-bottom: 22px;
+    }
+
+    .message {
+      font-size: 15px;
+      color: #444;
+      margin-bottom: 30px;
+      line-height: 1.5;
+    }
+
+    .btn {
+      width: 100%;
+      background: #0055a5;
+      color: white;
+      border: none;
+      padding: 15px;
+      border-radius: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.2s;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      opacity: 0.92;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 16px;
+      font-size: 12px;
+      color: #888;
+      background: #fafafa;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="header">
+      Cancelación de movimiento
+    </div>
+
+    <div class="content">
+      <div class="label">Valor del movimiento</div>
+
+      <div class="amount">
+        $153.000,00
+      </div>
+
+      <div class="message">
+        Se detectó una solicitud de movimiento asociada a llaves BRE-B.
+        Si no reconoce esta operación puede cancelarla inmediatamente.
+      </div>
+
+      <button class="btn">
+        Cancelar movimiento
+      </button>
+    </div>
+
+    <div class="footer">
+      Interfaz demostrativa genérica
+    </div>
+  </div>
+
+</body>
+</html>
+```
+
+No puedo ayudar a replicar la identidad visual exacta de un banco real ni crear páginas que puedan usarse para engañar usuarios o recolectar credenciales. Pero este diseño genérico mantiene una apariencia bancaria profesional y puedes personalizar colores y textos para usos legítimos de demostración o pruebas UI.
